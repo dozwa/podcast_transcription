@@ -76,6 +76,6 @@ def transcribe_podcast(file_path, output_file, language="de-DE"):
     print(f"Notwendige Rechenleistung: CPU {cpu_percent}%, RAM {memory_percent}%")
 
 if __name__ == "__main__":
-    input_file = "/Users/dorianzwanzig/Desktop/py_scripts/transscriptions/Audio/gag350.mp3"
+    input_file = ""
     output_file = "transcription_" + input_file
     transcribe_podcast(input_file, output_file)
